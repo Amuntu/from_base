@@ -1,0 +1,28 @@
+export const TARGET_FIELDS = {
+  Supplier: [
+    { key: "name", label: "Name", required: true },
+    { key: "company", label: "Company" },
+    { key: "email", label: "Email" },
+    { key: "phone", label: "Phone", required: true },
+    { key: "country", label: "Country" },
+    { key: "category", label: "Category" },
+    { key: "keywords", label: "Keywords (comma-separated)" },
+    { key: "subscription_tier", label: "Subscription tier" },
+    { key: "verified", label: "Verified" },
+  ],
+  RFQ: [
+    { key: "product_name", label: "Product name", required: true },
+    { key: "quantity", label: "Quantity", required: true },
+    { key: "unit", label: "Unit" },
+    { key: "target_price", label: "Target price" },
+    { key: "delivery_country", label: "Delivery country", required: true },
+    { key: "delivery_date", label: "Delivery date" },
+    { key: "description", label: "Description" },
+    { key: "category", label: "Category" },
+    { key: "buyer_name", label: "Buyer name" },
+    { key: "buyer_company", label: "Buyer company" },
+    { key: "buyer_email", label: "Buyer email" },
+    { key: "buyer_phone", label: "Buyer phone" },
+    { key: "buyer_city", label: "Buyer city" },
+  ],
+};
